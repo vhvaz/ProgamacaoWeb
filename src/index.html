@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante Serra Do Gandarela</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- banner de boas vindas -->
+    <section class="welcome-banner">
+      <div class="container">
+        <h1>Restaurante Serra Do Gandarela</h1>
+        <p>
+          Experimente o sabor autêntico com pratos refinados e um ambiente
+          acolhedor.
+        </p>
+        <a href="cardapio.html" class="button">Ver Cardápio</a>
+      </div>
+    </section>
+
+    <!-- sobre -->
+    <section class="history">
+      <div class="container">
+        <h2>Sobre Nós</h2>
+        <p>
+          O Restaurante está localizado em Rio Acima, próximo a atrativos
+          naturais e do Parque Nacional da Serra do Gandarela, cercado por
+          natureza e ar puro. Somos um ponto de referência para os amantes da
+          boa culinária, sempre prezando pelo atendimento de excelência e um
+          ambiente acolhedor, ideal para momentos especiais. Venha nos visitar e
+          conheça de perto a tradição e o sabor que fazem parte de nossa
+          história.
+        </p>
+      </div>
+    </section>
+
+    <!-- localização -->
+    <section id="localizacao" class="location">
+      <div class="container">
+        <h2>Nosso Endereço</h2>
+        <div class="address">
+          <p>
+            <strong>Endereço:</strong> Estrada Principal Cocho D'água Km 5 Cocho
+            D'água | Rio Acima - MG
+          </p>
+          <p><strong>Telefone:</strong> (31)99857-0784</p>
+          <p><strong>Email:</strong> contato@restauranteserradogandarela.com</p>
+          <p>
+            <strong>Horário de Funcionamento:</strong> Segunda a Sábado, 10h às
+            22h
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- fotos do restaurante -->
+    <section class="gallery">
+      <div class="container">
+        <h2>Nosso Ambiente</h2>
+        <div class="gallery-grid">
+          <img src="img/RESTAURANTE2.PNG" alt="Foto do Restaurante 2" />
+          <img src="img/RESTAURANTE3.PNG" alt="Foto do Restaurante 3" />
+          <img src="img/RESTAURANTE4.PNG" alt="Foto do Restaurante 4" />
+        </div>
+      </div>
+    </section>
+
+    <!-- formulário reserva de mesa -->
+    <section id="reservation" class="reservation">
+      <div class="container">
+        <h2>Reserve sua Mesa</h2>
+        <form action="#" method="post">
+          <label for="name">Nome:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Seu nome"
+            required
+          />
+
+          <label for="phone">Telefone:</label>
+          <input
+            type="text"
+            id="phone"
+            name="phone"
+            placeholder="Seu telefone"
+            required
+          />
+
+          <label for="email">E-mail:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Seu e-mail"
+            required
+          />
+
+          <label for="people">Número de Pessoas:</label>
+          <input
+            type="number"
+            id="people"
+            name="people"
+            min="1"
+            max="20"
+            placeholder="Número de pessoas"
+            required
+          />
+
+          <label for="date">Data da Reserva:</label>
+          <input type="date" id="date" name="date" required />
+
+          <label for="time">Horário da Reserva:</label>
+          <select id="time" name="time" required>
+            <option value="">Selecione um horário</option>
+            <option value="12:00">12:00</option>
+            <option value="14:00">14:00</option>
+            <option value="18:00" disabled>
+              18:00 - Indisponível (Todas as mesas estão ocupadas)
+            </option>
+            <option value="20:00">20:00</option>
+          </select>
+
+          <a href="reserva.html" class="button">Enviar Reserva</a>
+        </form>
+      </div>
+    </section>
+
+    <!-- rodapé -->
+    <footer>
+      <div class="container">
+        <p>Contato: (31)99857-0784 | contato@restauranteserradogandarela.com</p>
+        <p>
+          &copy; 2024 Restaurante Serra Do Gandarela - Todos os direitos
+          reservados.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
