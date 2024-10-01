@@ -26,7 +26,7 @@
 
 <ol>
     <li>Clone este repositório para o seu computador:</li>
-    <pre><code>git clone https://github.com/seu-usuario/seu-repositorio.git</code></pre>
+    <pre><code>git clone https://github.com/vhvaz/ProgamacaoWeb.git</code></pre>
     <li>Abra o arquivo <b>index.html</b> em um navegador de sua escolha.</li>
     <li>Navegue pelas páginas do site através do menu ou dos botões de chamada para ação (CTA).</li>
 </ol>
